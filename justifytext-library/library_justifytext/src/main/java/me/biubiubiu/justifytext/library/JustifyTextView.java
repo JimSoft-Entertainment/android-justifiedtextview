@@ -7,13 +7,13 @@ import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.util.AttributeSet;
-import android.widget.TextView;
+import android.support.v7.widget.AppCompatTextView;
 
 /**
  * @author ccheng
  * @Date 3/18/14
  */
-public class JustifyTextView extends TextView {
+public class JustifyTextView extends AppCompatTextView {
 
     private int mLineY;
     private int mViewWidth;
